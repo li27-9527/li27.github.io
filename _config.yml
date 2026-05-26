@@ -2,6 +2,7 @@ title: li27
 description: 个人资料与文件展示站
 lang: zh-CN
 url: "https://li27-9527.github.io"
+repository_url: "https://github.com/li27-9527/li27-9527.github.io"
 
 markdown: kramdown
 permalink: pretty

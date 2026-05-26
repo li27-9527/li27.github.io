@@ -32,5 +32,10 @@ description: li27 的个人资料与文件展示站
       <strong>如何新增资料</strong>
       <small>在线新增 Markdown 和附件时可以参考。</small>
     </a>
+    <a class="resource-card" href="{{ '/maintain/' | relative_url }}">
+      <span>在线维护</span>
+      <strong>编辑与上传入口</strong>
+      <small>快速进入 GitHub 网页编辑器和上传页面。</small>
+    </a>
   </div>
 </section>

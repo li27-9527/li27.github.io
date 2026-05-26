@@ -12,6 +12,11 @@
 
   <main class="page">
     {{ content }}
+    {% if page.path %}
+      <p class="edit-page">
+        <a href="{{ site.repository_url }}/edit/main/{{ page.path }}">编辑本页</a>
+      </p>
+    {% endif %}
   </main>
 
   {% include site-footer.html %}

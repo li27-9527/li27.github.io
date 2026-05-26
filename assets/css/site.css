@@ -237,6 +237,17 @@ ul {
   font-size: 14px;
 }
 
+.edit-page {
+  margin-top: 48px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+}
+
+.edit-page a {
+  font-weight: 700;
+}
+
 @media (max-width: 620px) {
   .site-header {
     align-items: flex-start;

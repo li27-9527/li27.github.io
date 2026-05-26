@@ -26,3 +26,9 @@ permalink: /materials/
 ## 附件文件
 
 - PDF、图片或文档可以放入 `assets/files/` 目录，再从资料页中链接。
+
+## 在线维护
+
+- [新增 Markdown 资料](https://github.com/li27-9527/li27-9527.github.io/new/main/_materials)
+- [上传附件文件](https://github.com/li27-9527/li27-9527.github.io/upload/main/assets/files)
+- [查看维护入口]({{ '/maintain/' | relative_url }})
