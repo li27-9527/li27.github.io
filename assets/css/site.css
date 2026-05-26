@@ -1,0 +1,159 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
+  background: #f6f4ef;
+  color: #202124;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: #0f766e;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.site-header {
+  width: min(960px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 28px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  color: inherit;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 15px;
+}
+
+.nav a {
+  color: #4f545c;
+  text-decoration: none;
+}
+
+.page {
+  width: min(960px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 56px 0 80px;
+}
+
+.hero {
+  max-width: 760px;
+  padding: 40px 0 48px;
+}
+
+.eyebrow {
+  margin: 0 0 18px;
+  color: #0f766e;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: clamp(40px, 8vw, 80px);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin: 48px 0 16px;
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+h3 {
+  margin: 28px 0 10px;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+p,
+li {
+  color: #4f545c;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+p {
+  max-width: 720px;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+.section {
+  border-top: 1px solid rgba(32, 33, 36, .12);
+  padding-top: 28px;
+}
+
+.link-list {
+  display: grid;
+  gap: 14px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-list li {
+  margin: 0;
+}
+
+.link-list a {
+  font-weight: 700;
+}
+
+@media (max-width: 620px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .page {
+    padding-top: 32px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: #171717;
+    color: #f4f1ea;
+  }
+
+  a,
+  .eyebrow {
+    color: #5eead4;
+  }
+
+  p,
+  li,
+  .nav a {
+    color: #c8c3b9;
+  }
+
+  .section {
+    border-top-color: rgba(244, 241, 234, .16);
+  }
+}

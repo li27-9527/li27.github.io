@@ -1,0 +1,10 @@
+title: li27
+description: 个人资料与文件展示站
+lang: zh-CN
+url: "https://li27-9527.github.io"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
