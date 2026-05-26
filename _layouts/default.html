@@ -8,16 +8,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav class="nav" aria-label="主导航">
-      <a href="{{ '/' | relative_url }}">首页</a>
-      <a href="{{ '/materials/' | relative_url }}">资料</a>
-    </nav>
-  </header>
+  {% include site-header.html %}
 
   <main class="page">
     {{ content }}
   </main>
+
+  {% include site-footer.html %}
 </body>
 </html>

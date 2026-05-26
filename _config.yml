@@ -6,5 +6,17 @@ url: "https://li27-9527.github.io"
 markdown: kramdown
 permalink: pretty
 
+collections:
+  materials:
+    output: true
+    permalink: /materials/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: materials
+    values:
+      layout: material
+
 exclude:
   - README.md

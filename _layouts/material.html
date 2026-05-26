@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article class="content-page">
+  <p class="eyebrow">{{ page.category | default: "Material" }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.summary %}
+    <p class="lead">{{ page.summary }}</p>
+  {% endif %}
+
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>
